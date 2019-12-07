@@ -10,7 +10,7 @@ if($found === false) {
     $message = "Invalid email address entered " . $_POST["emailAddr"] . " must contain a '@' symbol.";
 }
 #The age value must be greater than 18
-if($_POST["age"] < 18) {
+if((int)$_POST["age"] < 21) {
     $message = "Age is too low. You must be at least 18 to sign up.";
 }
 
