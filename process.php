@@ -30,11 +30,12 @@ if($message == "") {
 
 <html>
 <head>
+    <title>Sign up for what?!</title>
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="<?php echo $color ?>">
+        <div class="box <?php echo $color ?>">
              <p><?php echo $message ?></p>
         </div>
     </div>
