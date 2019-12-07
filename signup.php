@@ -6,6 +6,7 @@
     </head>
     <body>
     <form action="./process.php" method="POST">
+        <h1>Sign up for what!?</h1>
         <label for="username">Username</label>
         <input type="text" class="field" name="username" id="username" value="chosenOne2020" />
         <br />
@@ -34,7 +35,7 @@
             <?php } ?>
         </select>
         <br />
-        <input type="submit" value="Submit"/> 
+        <input type="submit" value="Subscribe"/> 
     </form>
     </body>
 </html>

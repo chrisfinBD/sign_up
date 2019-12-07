@@ -1,4 +1,30 @@
 body {
-	  font-family: 'tahoma', 'verdana', 'sans-serif';
+	font-family: 'tahoma', 'verdana', 'sans-serif';
     font-size: 22px;
+
+}
+
+.container {
+    display: flex; 
+    flex-flow: column;
+    justify-content: center;
+}
+.box {
+    padding: 10px;
+    border: 1em;
+    text-align: center;
+}
+
+.green {
+    background-color: #cfc; 
+}
+
+.red {
+    background-color: #f2dede;
+}
+
+.field {
+    height: 20px;
+    width: 40px;
+
 }
